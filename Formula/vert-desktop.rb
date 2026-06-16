@@ -1,13 +1,12 @@
-# This file is auto-updated by the build workflow on each release.
 cask "vert-desktop" do
-  version "0.1.0"
-  sha256 :no_check
+  version "0.1.10"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   url "https://github.com/sindus/vert-desktop/releases/download/v#{version}/VERT.Desktop_#{version}_aarch64.dmg",
       verified: "github.com/sindus/vert-desktop/"
 
   name "VERT Desktop"
-  desc "Privacy-first file converter — runs entirely on your machine"
+  desc "Privacy-first file converter — images, audio, video, documents. No uploads."
   homepage "https://sindus.github.io/vert-desktop"
 
   app "VERT Desktop.app"
