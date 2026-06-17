@@ -1,6 +1,6 @@
 cask "vert-desktop" do
-  version "0.1.13"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  version "0.1.14"
+  sha256 "f4c7e1b3d1ddafa4b00484793aa94b56b7e27ce51229bb8377ca0f7bedae1802"
 
   url "https://github.com/sindus/vert-desktop/releases/download/v#{version}/VERT.Desktop_#{version}_aarch64.dmg",
       verified: "github.com/sindus/vert-desktop/"
